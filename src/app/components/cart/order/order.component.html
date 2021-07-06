@@ -1,0 +1,9 @@
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let i of [1,2,3,4]">
+        <app-order-item></app-order-item>
+    </li>
+    
+    <li class="list-group-item active">
+    <strong>Total: {{400 | currency}}</strong>
+    </li>
+</ul>

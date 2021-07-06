@@ -1,0 +1,15 @@
+<div>
+  <div class="product-image">
+    <img [src]="productItem.image" >
+  </div>
+  <div class="product-info">
+  <h4>{{productItem.pName}} </h4> <h4>{{productItem.price | currency}}</h4>
+  <div>
+    <p>{{productItem.description}}</p>
+  </div>
+  <div class="btn-group" role="group" aria-label="Basic outlined example">
+    <button type="button" class="btn btn-outline-primary"> Love</button>
+    <button type="button" class="btn btn-outline-primary">Add to cart </button>
+  </div>
+  </div>
+</div>
